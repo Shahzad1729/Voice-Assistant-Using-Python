@@ -7,7 +7,6 @@ import webbrowser
 import os
 import time  
 import smtplib
-import Email
 import ShowNews
 import pyautogui
 from psutil import virtual_memory
@@ -50,8 +49,8 @@ def sendEmail(to, content):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
     server.starttls()
-    server.login(Email.username, Email.password)
-    server.sendmail(Email.username, to, content)
+    server.login(your_email, your_password)
+    server.sendmail(your_email, to, content)
     server.close()
  
 def webBrowerOpen(site_name):

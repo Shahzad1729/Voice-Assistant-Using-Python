@@ -53,7 +53,15 @@ we see, voice search would be fast and time saving.
    ```sh
    git clone https://github.com/Shahzad1729/Voice-Assistant-Using-Python.git
    ```
-2. Run 
+
+2. Get your API keys from respective websites.
+
+   ```sh
+   1. wolframalpha.com  --> add in functions.py
+   2. newapi.com        --> add in ShowNews.py
+   ```
+
+3. Run 
    ```sh
    Assistant.py
    ```

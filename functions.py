@@ -14,8 +14,8 @@ engine.setProperty('voice', voices[0].id)
 engine. setProperty("rate", 192)
 
 def Gk_Search(question):
-    app_id="PG2U4K-AW69GEQ4R2"
-    client=wolframalpha.Client('R2K75H-7ELALHR35X')
+#     app_id=""
+    client=wolframalpha.Client('<paste_your_key>')
     try:
         res=client.query(question)
         answer=next(res.results).text
@@ -58,7 +58,7 @@ def close_media_player():
     os.system("taskkill /f /im vlc.exe")
 
 def open_vs_code():
-    codePath = "C:\\Users\\SHAIKH AFFAN\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+    codePath = "C:\\Users\\User_Name\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
     os.startfile(codePath)
 
 def open_notepad():

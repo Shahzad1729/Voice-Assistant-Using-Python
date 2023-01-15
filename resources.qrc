@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="Images">
+    <file>Image/TerminalFram.jpg</file>
+    <file>Image/RoundAnim.gif</file>
+    <file>Image/StartButtonAnim.gif</file>
+    <file>Image/Ram.gif</file>
+    <file>Image/ExitButton.jpg</file>
+    <file>Image/background.jpg</file>
+    <file>Image/Frame.jpg</file>
+    <file>Image/SideAnimation.gif</file>
+  </qresource>
+</RCC>

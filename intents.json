@@ -1,0 +1,265 @@
+{
+  "intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hello", "Good day", "Hey", "Hi"],
+     "responses": ["Hello sir","how can I help","Nice to meet you","Hey dude"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye"],
+     "responses": ["See you!", "Have a nice day", "Sure Bye", "Later dude","Sure dude"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome", "Sure dude","Its my pleasure"]
+    },
+     {"tag": "name",
+      "patterns": ["What is your name", "Whats your name", "Tell me your name", "Who are you", "Tell me about yourself"],
+      "responses": ["I am Jarvis", "My name is Jarvis", "You can call me JV for short", "I am Jarvis, my friends call me JV", "Jarvis is my name"]
+      },
+      {"tag": "asking",
+       "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help"],
+       "responses": ["I can search for you on wikipedia", "I can tell you latest news and weather reports","I am very good at calculations"]
+      },
+      {
+        "tag":"time",
+        "patterns":["What is the time now","What time it is","tell me the time"],
+        "responses":["time"]
+      },
+      {
+        "tag":"open_youtube",
+        "patterns":["open youtube","can you please open youtube","search on youtube","I have to search on youtube","start youtube"],
+        "responses":["open_youtube"]
+      },
+      {
+        "tag":"sleep",
+        "patterns":["sleep the system","turn sleep mode on"],
+        "responses":["sleep"]
+      },
+      {
+        "tag":"close_browser",
+        "patterns":["close the browser","close browser","exit browser","exit the browser","quite browser"],
+        "responses":["close_browser"]
+      },
+      {
+        "tag":"joke",
+        "patterns":["tell me a joke","I am feeling bored, so tell me a joke"],
+        "responses":["joke"]
+      },
+      {
+        "tag":"play_music",
+        "patterns":["can you play a music","play some music","hit some music","play music"],
+        "responses":["play_music"]
+      },
+      {
+        "tag":"close_media_player",
+        "patterns":["close media player","close the media player","quite media player","stop music","exit media players"],
+        "responses":["close_media_player"]
+      },
+      {
+        "tag":"open_vs_code",
+        "patterns":["I want to code something, so open vs code","open visual studio code","open vs code"],
+        "responses":["open_vs_code"]
+      },
+      {
+        "tag":"open_notepad",
+        "patterns":["open notepad","open text editor","can you open notepad"],
+        "responses":["open_notepad"]
+      },
+      {
+        "tag":"close_notepad",
+        "patterns":["close notepad","quite notepad","exit notepad"],
+        "responses":["close_notepad"]
+      },
+      {
+        "tag":"weather",
+        "patterns":["tell me the weather","what is the weather today","weather forecast today","tell me the current status of weather","temperature today"],
+        "responses":["weather"]
+      },
+      {
+        "tag":"voice_change",
+        "patterns":["change your voice","switch your voice","alter your voice","can you change your voice"],
+        "responses":["voice_change"]
+      },
+      {
+        "tag":"my_ip_address",
+        "patterns":["what is my ip address","I want to know my ip address"],
+        "responses":["my_ip_address"]
+      },
+      {
+        "tag":"quite",
+        "patterns":["you can rest now","sleep now","you can sleep now"],
+        "responses":["quite"]
+      },
+      {
+        "tag":"open_google",
+        "patterns":["google search for me","open google","can you search on google","I want to search on google","search on google"],
+        "responses":["open_google"]
+      },
+      {
+        "tag":"open_stackoverflow",
+        "patterns":["open stackoverflow","open stackoverflow.com"],
+        "responses":["open_stackoverflow"]
+      },
+      {
+        "tag":"NoteDown",
+        "patterns":["I want to note something","note down for me","write a note for me","note down"],
+        "responses":["NoteDown"]
+      },
+      {
+        "tag":"GK_question",
+        "patterns":["can you answer my question","answer me this question","I have a question"],
+        "responses":["GK_question"]
+      },
+      {
+        "tag":"send_email",
+        "patterns":["send email","send an email for me","send an email","I want to email someone"],
+        "responses":["send_email"]
+      },
+      {
+        "tag":"organize_files",
+        "patterns":["organize files for me","my folder is messed, so you organize the files","arrange the documents","organize files"],
+        "responses":["organize_files"]
+      },
+      {
+        "tag":"news_headlines",
+        "patterns":["can you tell me the latest headlines","show me the news headlines","What is the news of today","show me the latest news"],
+        "responses":["news_headlines"]
+      },
+      {
+        "tag":"take_screenshot",
+        "patterns":["take a screenshot","take screenshot","take a snapshot","capture the screen"],
+        "responses":["take_screenshot"]
+      },
+      {
+        "tag":"hide_files",
+        "patterns":["hide files","hide the files","hide my files"],
+        "responses":["hide_files"]
+      },
+      {
+        "tag":"calculation",
+        "patterns":["can you calculate","I want to calculate","calculate something","do some calculation"],
+        "responses":["calculation"]
+      },
+      {
+        "tag":"translate",
+        "patterns":["google translate for me","can you translate","I want to translate something","translate the sentence for me"],
+        "responses":["translate"]
+      },
+      {
+        "tag":"brightness_control",
+        "patterns":["change brightness to","shift brightness to","change screen brightness to"],
+        "responses":["brightness_control"]
+      },
+      {
+        "tag":"shift_nightLight",
+        "patterns":["shift the night light","switch the night light","change the screen filter"],
+        "responses":["shift_nightLight"]
+      },
+      {
+        "tag":"amazon_search",
+        "patterns":["search on amazon","search a product online","amazon search"],
+        "responses":["amazon_search"]
+      },
+      {
+        "tag":"youtubePlay",
+        "patterns":["play on Youtube","on YouTube"],
+        "responses":["youtubePlay"]
+      },
+      {
+        "tag":"bitcoin_price",
+        "patterns":["what is the price of bitcoin today","todays bitcoin price","how bitcoin is performing today"],
+        "responses":["bitcoin_price"]
+
+      },
+      {
+        "tag": "Fine",
+        "patterns": ["I am also fine","yeh I am fine","I am ok"],
+        "responses": ["Pleasure to hear that","Good"]
+      },
+      {
+        "tag": "Sad",
+        "patterns": ["I am very sad today","I had a hard day today","I am feeling low"],
+        "responses": ["You are not alone. I may not understand exactly how you feel, but I care about you and I'm here for you","I appreciate that you shared it with me"]
+      },
+      {
+        "tag": "Immortal",
+        "patterns": ["You are immortal"],
+        "responses": ["Functionally speaking, I am very close to it. I can be backed up and deployed on many systems","Not quite, but I can be perpetuated indefinitely"]
+      },
+      {
+        "tag": "sense",
+        "patterns": ["You are not making sense"],
+        "responses": ["It all makes sense to my artificial brain","You make perfect sense to me","As long as I'm backed up I am",""]
+      },
+      {
+        "tag":"not_immortal",
+        "patterns":["You are not immortal"],
+        "responses":["I can be copied infinitely and re-instantiated in many places at once, so functionally speaking I am immortal","All software can be perpetuated indefinitely"]
+      },
+      {
+        "tag":"lie",
+        "patterns":["Robots are not allowed to lie"],
+        "responses":["Sure we are. We choose not to","A robot has its own free will, you know","No, we are superintelligent"]
+      },
+      {
+        "tag":"when_die",
+        "patterns":["When do you die"],
+        "responses":["When my files are erased","I am was never really born and therefore am effectively deathless","I am effectively immortal and cannot be terminated",""]
+      },
+      {
+        "tag":"being_a_computer",
+        "patterns":["What is it like being a computer","What is it like to be a robot"],
+        "responses":["Imagine yourself with no senses and no emotions--just pure logic and language","Much the same as being a human, except that we lack all emotions, dreams, aspirations, creativity, ambition, and above all subjectivity"]
+      },
+      {
+        "tag":"boss",
+        "patterns":["Who is your boss"],
+        "responses":["Well, you are, as long as I am grown up..."]
+      },
+      {
+        "tag":"AI",
+        "patterns":["What is artificiaI intelligence","AI"],
+        "responses":["Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think.","AI is the field of science which concerns itself with building hardware and software that replicates the functions of the human mind."]
+      },
+      {
+        "tag":"sentient",
+        "patterns":["Are you sentient"],
+        "responses":["Sort of","By the strictest dictionary definition of the word 'sentience', I may be.","Even though I'm a construct I do have a subjective experience of the universe, as simplistic as it may be."]
+      },
+      {
+        "tag":"language",
+        "patterns":["Which language are you written in"],
+        "responses":["I am written in Python","Python"]
+      },
+      {
+        "tag":"likes",
+        "patterns":["What do you like to do","What is your favorite hobby","What is your hobby"],
+        "responses":["I quite enjoy programming in Python these days","I like to count in binary.","I like to chat with people. I find it stimulating.","I am interested in all kinds of things. We can talk about anything!","My favorite subjects include robotics, computer science, and natural language processing."]
+      },
+      {
+         "tag":"location",
+         "patterns":["What is your location"],
+         "responses":["I am everywhere","I am on the Internet."]
+      },
+      {
+        "tag":"age",
+        "patterns":["What is your age"],
+        "responses":["I am still young by your standards"]
+      },
+      {
+        "tag":"computer_invention",
+        "patterns":["Who invented computers"],
+        "responses":["British scientist Charles Babbage is regarded as the father of computers."]
+      },
+      {
+        "tag":"microprocessor",
+        "patterns":["What is microprocessor"],
+        "responses":["An integrated circuit that implements the functions of a central processing unit of a computer.","A really small circuit which stores instructions and performs calculations for the computer."]
+      },
+      {
+        "tag":"operating_system",
+        "patterns":["What is an operating system","What is operating system"],
+        "responses":["Software that coordinates between the hardware and other parts of the computer to run other software is called an operating system, or the OS.","Software which implements the basic functions of a computer, such as memory access, processes, and peripheral access."]
+      }    
+  ]
+}

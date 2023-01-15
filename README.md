@@ -1,5 +1,5 @@
 
-<h3 align="center">Voice Assistant Using Python</h3>
+<h1 align="center">Voice Assistant Using Python</h3>
 
   <p align="center">
     We have always been amazed by how technology is advancing day 
@@ -96,7 +96,9 @@ we see, voice search would be fast and time saving.
 
 <!-- Image -->
 ## Image
-
+<a href="https://github.com/Shahzad1729/Voice-Assistant-Using-Python">
+    <img src="Screenshot.png" alt="Logo" width="1080" height="500">
+  </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -83,18 +83,6 @@ we see, voice search would be fast and time saving.
 - [ ] Get Current Price of Bitcoin
 
 
-
-
-<!-- Image -->
-## Image
-
-<a href="https://github.com/Shahzad1729/Voice-Assistant-Using-Python">
-    <img src="Screenshot.png" alt="image" width="1080" height="500">
-  </a>
-
-
-
-
 <!-- Limitations -->
 ## Limitations
 

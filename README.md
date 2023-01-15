@@ -33,7 +33,6 @@ One of the main advantages of voice searches is that we can write about 40 words
 whereas we are capable of speaking around 150 words during the same period of time. As 
 we see, voice search would be fast and time saving.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ### Built With
@@ -42,10 +41,6 @@ we see, voice search would be fast and time saving.
 * <strong>Qt<strong>
 * <strong>HTML<strong>
 * <strong>CSS<strong>
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
@@ -63,8 +58,6 @@ we see, voice search would be fast and time saving.
    Assistant.py
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- Feature -->
 ## Features
@@ -73,7 +66,7 @@ we see, voice search would be fast and time saving.
 - [ ] Searching on Google
 - [ ] Opening Applications Like VS Code, Notepad etc..
 - [ ] Closing Applications like Web Browser, Notepad, Music Player etc..
-- [ ] Playing Music<strong>
+- [ ] Playing Music
 - [ ] Weather Update (Temp)
 - [ ] Check Current IP Address
 - [ ] Taking Notes in Notepad
@@ -82,15 +75,13 @@ we see, voice search would be fast and time saving.
 - [ ] Sending Message on WhatsApp
 - [ ] Organizing Files According to their type (Docs, Image, Video, Audio, Others)
 - [ ] Taking Screenshot
-- [ ] Hiding Files<strong>
+- [ ] Hiding Files
 - [ ] Basic Arithmatic Calculation
-- [ ] Google translate (English to : Hindi or Marathi or Urdu)
+- [ ] Google Translate (English to : Hindi or Marathi or Urdu)
 - [ ] Brightness Control
 - [ ] Switching Night Light (Windows 10)
 - [ ] Get Current Price of Bitcoin
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -100,7 +91,6 @@ we see, voice search would be fast and time saving.
     <img src="Screenshot.png" alt="Logo" width="1080" height="500">
   </a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -121,7 +111,3 @@ work.</p>
 <strong>3. Slow internet connection:<strong>
 <p>Sometimes internet connection might be slow, so there might be delayed in getting the 
 desired results.</p>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-

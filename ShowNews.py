@@ -3,7 +3,7 @@ from newsapi.newsapi_client import NewsApiClient
 import pycountry
 
 # you have to get your api key from newapi.com and then paste it below
-newsapi = NewsApiClient(api_key='198d457ed2874e37a151f7d8aae41c52')
+newsapi = NewsApiClient(api_key='')
 
 
 def NewsHeadlines(con, option):

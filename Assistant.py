@@ -227,7 +227,7 @@ class MainThread(QThread):
                 try:
                     speak("What should I say?")
                     content = self.takeCommand()
-                    to = "fa429728@gmail.com"    
+                    to = "yourmail@gmail.com"    
                     sendEmail(to, content)
                     speak("Email has been sent!")
                 except Exception as e:

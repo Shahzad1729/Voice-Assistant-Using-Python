@@ -56,10 +56,9 @@ we see, voice search would be fast and time saving.
 
 2. Get your API keys from respective websites.
 
-   ```sh
-   1. wolframalpha.com  --> add in functions.py
-   2. newapi.com        --> add in ShowNews.py
-   ```
+   <a href="https://www.wolframalpha.com/">1. Wolframalpha </a>  --> Add in functions.py<br>
+   <a href="https://newsapi.org/">2. Newapi</a>  --> Add in ShowNews.py
+
 
 3. Run 
    ```sh
